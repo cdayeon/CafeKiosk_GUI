@@ -469,7 +469,7 @@ public class MenuPanel extends JPanel {
 		
 		//장바구니 목록
 		JTextArea ta = new JTextArea();
-		ta.setText("    상품명         단가         수량         합계\n\n");
+		ta.setText("    " + "상품명" + "        " + "가격" + "         " + "수량" + "          " + "합계" + "\n");
 		ta.setBackground(Color.white);
 		ta.setEditable(false);
 		ta.setBounds(0, 560, 625, 140);
@@ -520,6 +520,7 @@ public class MenuPanel extends JPanel {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "장바구니가 초기화됩니다.", "안내", JOptionPane.INFORMATION_MESSAGE);
 				for(int i=0; i<drink1.length; i++) {
 					jb1[i].setEnabled(true);
 					plus1[i].setEnabled(false);
@@ -544,7 +545,7 @@ public class MenuPanel extends JPanel {
 					minus4[i].setEnabled(false);
 					tf4[i].setText("0");
 				}
-				ta.setText("\t상품명 \t가격 \t수량 \t합계\n\n");
+				ta.setText("    " + "상품명" + "        " + "가격" + "         " + "수량" + "          " + "합계" + "\n");
 			}
 		});
 		
@@ -585,8 +586,9 @@ public class MenuPanel extends JPanel {
 					minus4[i].setEnabled(false);
 					tf4[i].setText("0");
 				}
-				ta.setText("\t상품명 \t가격 \t수량 \t합계\n\n");
+				ta.setText("    " + "상품명" + "        " + "가격" + "         " + "수량" + "          " + "합계" + "\n");
 			}
+				mc.change("firstPanel");
 		});
 		
 		//버튼 이벤트 정리 시작
@@ -841,9 +843,7 @@ public class MenuPanel extends JPanel {
 			});
 		}
 		//확인버튼 기능 정리 완료
-		
-		
-		
+			
 	}
 }
 ```
@@ -863,3 +863,18 @@ public class MenuPanel extends JPanel {
 
 * 메뉴이미지를 누르면 **+, -, 수량, 확인**이 활성화된다.
 * **확인**을 누르면 메뉴이름, 가격, 수량, 합계금액이 **장바구니**에 나타난다.
+
+<img width="619" alt="스크린샷 2023-08-02 오후 10 53 23" src="https://github.com/cdayeon/CafeKiosk_GUI/assets/119835857/ba241512-64af-4ee5-88ed-1885a686e568">
+
+* **이전**을 누르면 **"초기화면으로 돌아갑니다"라는 안내창**이 뜨면서, 배너화면으로 돌아간다.
+
+<img width="619" alt="스크린샷 2023-08-02 오후 11 00 38" src="https://github.com/cdayeon/CafeKiosk_GUI/assets/119835857/5e13b2c6-b403-4fdb-9e8a-a5985da818ce">
+<br>
+<img width="619" alt="스크린샷 2023-08-02 오후 11 05 14" src="https://github.com/cdayeon/CafeKiosk_GUI/assets/119835857/e18a1c22-0e56-4433-bedb-a2d9c44c98bd">
+
+* **초기화**를 누르면 **"장바구니가 초기화됩니다."라는 안내창**이 뜨면서, 장바구니에 들어있던 메뉴가 모두 사라진다.
+
+<img width="619" alt="스크린샷 2023-08-02 오후 11 06 53" src="https://github.com/cdayeon/CafeKiosk_GUI/assets/119835857/42a1b669-a375-4cd9-8053-e32cdf2b9b9f">
+
+* **결제**를 누르면 **"결제가 완료되었습니다."라는 안내창**이 뜨면서 주문한 메뉴이름, 가격, 수량, 합계금액이 나타난다.
+* **확인**을 누르면 초기화면인 배너화면으로 돌아간다.
