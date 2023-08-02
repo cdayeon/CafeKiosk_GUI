@@ -53,6 +53,7 @@ public void change(String panelName) {
 * **매장**, **포장**버튼을 누르면 **change()함수**가 실행되면서 **menuPanel**이 보이도록 기능을 구현하였다.
 ------
 ### 2. 메뉴
+#### menuPanel 코드
 
 ```
 package cafe;
