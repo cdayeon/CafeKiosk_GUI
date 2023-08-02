@@ -856,5 +856,10 @@ public class MenuPanel extends JPanel {
 <br>
 <img width="619" alt="스크린샷 2023-08-02 오후 4 31 02" src="https://github.com/cdayeon/CafeKiosk_GUI/assets/119835857/571df7dc-68e8-4a15-8963-66823e65b259">
 
-* 메뉴이미지, 메뉴이름, 가격, +버튼, -버튼, 확인버튼, 수량을 모두 **배열**로 정리
+* **메뉴이미지, 메뉴이름, 가격, +, -, 수량, 확인** 을 모두 **배열**로 정리
 * **FITNESS스무디, FRUIT스무디, COFFEE&TEA, FOOD 버튼**을 누르면 해당 음료 및 음식이 나오도록 기능 구현
+
+<img width="619" alt="스크린샷 2023-08-02 오후 10 46 29" src="https://github.com/cdayeon/CafeKiosk_GUI/assets/119835857/3a9dbbfd-d03e-439a-944d-da87f3f4f382">
+
+* 메뉴이미지를 누르면 **+, -, 수량, 확인**이 활성화된다.
+* **확인**을 누르면 메뉴이름, 가격, 수량, 합계금액이 **장바구니**에 나타난다.
