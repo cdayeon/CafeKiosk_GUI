@@ -53,13 +53,6 @@ public void change(String panelName) {
 * **매장**, **포장**버튼을 누르면 **change()함수**가 실행되면서 **menuPanel**이 보이도록 기능을 구현하였다.
 ------
 ### 2. 메뉴
-<img width="619" alt="스크린샷 2023-08-02 오후 4 28 52" src="https://github.com/cdayeon/CafeKiosk_GUI/assets/119835857/25782ebb-6d36-4fb9-a38d-21624677c45d">
-<br>
-<img width="619" alt="스크린샷 2023-08-02 오후 4 29 24" src="https://github.com/cdayeon/CafeKiosk_GUI/assets/119835857/2a832e7e-e501-40a6-b323-29762b1324d7">
-<br>
-<img width="619" alt="스크린샷 2023-08-02 오후 4 29 53" src="https://github.com/cdayeon/CafeKiosk_GUI/assets/119835857/29b4f256-ad93-4b04-bc1b-27caca931fff">
-<br>
-<img width="619" alt="스크린샷 2023-08-02 오후 4 31 02" src="https://github.com/cdayeon/CafeKiosk_GUI/assets/119835857/571df7dc-68e8-4a15-8963-66823e65b259">
 
 ```
 package cafe;
@@ -853,6 +846,14 @@ public class MenuPanel extends JPanel {
 	}
 }
 ```
+
+<img width="619" alt="스크린샷 2023-08-02 오후 4 28 52" src="https://github.com/cdayeon/CafeKiosk_GUI/assets/119835857/25782ebb-6d36-4fb9-a38d-21624677c45d">
+<br>
+<img width="619" alt="스크린샷 2023-08-02 오후 4 29 24" src="https://github.com/cdayeon/CafeKiosk_GUI/assets/119835857/2a832e7e-e501-40a6-b323-29762b1324d7">
+<br>
+<img width="619" alt="스크린샷 2023-08-02 오후 4 29 53" src="https://github.com/cdayeon/CafeKiosk_GUI/assets/119835857/29b4f256-ad93-4b04-bc1b-27caca931fff">
+<br>
+<img width="619" alt="스크린샷 2023-08-02 오후 4 31 02" src="https://github.com/cdayeon/CafeKiosk_GUI/assets/119835857/571df7dc-68e8-4a15-8963-66823e65b259">
 
 * 메뉴이미지, 메뉴이름, 가격, +버튼, -버튼, 확인버튼, 수량을 모두 **배열**로 정리
 * **FITNESS스무디, FRUIT스무디, COFFEE&TEA, FOOD 버튼**을 누르면 해당 음료 및 음식이 나오도록 기능 구현
