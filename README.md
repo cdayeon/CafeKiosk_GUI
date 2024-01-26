@@ -15,6 +15,7 @@ IT전문교육기관에서 웹&앱개발 교육 중 GUI를 개발하는 단체 �
 ------
 ## 화면 구성
 <img width="484" alt="스크린샷 2024-01-26 오후 6 41 31" src="https://github.com/cdayeon/CafeKiosk_GUI/assets/119835857/5961252c-4c38-4f1c-83cf-d9343f788e15">
+
 <img width="484" alt="스크린샷 2024-01-26 오후 6 41 51" src="https://github.com/cdayeon/CafeKiosk_GUI/assets/119835857/8250c989-bbec-4f3d-8ebb-1aff06090eb8">
 
 
