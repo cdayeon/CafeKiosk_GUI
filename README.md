@@ -6,7 +6,7 @@ IT전문교육기관에서 웹&앱개발 교육 중 GUI를 개발하는 단체 �
 ## 프로젝트 기간
 2023. 03 ~ 2023. 03 (2주 소요)
 ## 사용한 기술 스택
-Java, JavaSwing, Eclipse
+###### Java, JavaSwing, Eclipse
 ------
 ### 1. 배너화면
 <img width="619" alt="스크린샷 2023-08-02 오후 4 12 54" src="https://github.com/cdayeon/CafeKiosk_GUI/assets/119835857/02abe44d-3f4f-4568-9283-10ffb4a824da">
